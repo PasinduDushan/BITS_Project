@@ -1,0 +1,18 @@
+{
+    "port": "5000",
+    "oauth2": {
+        "redirect_uri": "http://localhost:5000/api/callback", 
+        "client_id": "773913795583803422",
+        "secret": "ql1OOTMO5FobLqCKbS4lHQvJtztLv2up",
+        "scopes": ["identify"]
+    },
+    "session": {
+        "secret": "#$#$#$#SDFDDBA*&$&%$&#&%HFVHVIY&*^$%#$#%RDCHGCJCJGVJFT#%E#%#&$^&*RUFJVHJV",
+        "cookie": {
+            "maxAge": 86400000
+        },
+        "resave": true,
+        "saveUninitialized": false
+    },
+    "mongo_uri": "mongodb+srv://Admin:something1234@url-shortener.3dj9c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
